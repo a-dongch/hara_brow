@@ -338,9 +338,7 @@
 
     /* ==================== Accessibility Enhancements ==================== */
     function initAccessibility() {
-        // Add skip to content link
-        const $skipLink = $('<a href="#main-content" class="skip-link">본문으로 건너뛰기</a>');
-        $('body').prepend($skipLink);
+        // Skip to content link removed - not needed for this site
         
         // Keyboard navigation for FAQ
         $('.faq-question').on('keypress', function(e) {
