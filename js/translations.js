@@ -17,9 +17,19 @@ const translations = {
         // Hero
         'hero.title': '당신의 아름다움을<br>완성하는 공간',
         'hero.subtitle': '20년 경력의 전문가가 만드는 자연스러운 아름다움',
-        'hero.cta.booking': '상담 예약하기',
+        'hero.cta.booking': '예약 상담하기',
         'hero.cta.learn': '더 알아보기',
         'scroll': 'SCROLL',
+        // Hero Swiper Slides
+        'hero.slide1.subtitle': 'PERSONALIZED EYEBROW DESIGN',
+        'hero.slide1.title': '당신의 얼굴을 가장 잘 이해한 눈썹',
+        'hero.slide1.description': '간호사 출신, 반영구 · 속눈썹 시술 경력 8년<br>현재 간호학과 · 뷰티과 대학 외래교수로 활동 중인<br>대표원장이 상담부터 디자인, 시술까지 1:1로 직접 진행합니다.<br>얼굴형, 골격, 근육 사용, 피부 컨디션을 종합 분석해<br>지워져도 어색하지 않은, 시간이 지나도 안정적인 눈썹 디자인을 완성합니다.',
+        'hero.slide2.subtitle': 'BRAND PHILOSOPHY',
+        'hero.slide2.title': '유행이 아닌, 얼굴에 맞는 디자인',
+        'hero.slide2.description': '하라뷰티샵은 유행하는 눈썹을 복제하지 않습니다.<br>모든 디자인은 고객 한 분의 얼굴 구조와 인상에서 출발합니다.<br><br>과하지 않게, 그러나 분명하게.<br>첫인상이 자연스럽게 정돈되는 \'얼굴 중심 디자인\'을 추구합니다.<br>',
+        'hero.slide3.subtitle': 'HARA BEAUTY SHOP · Gangnam',
+        'hero.slide3.title': '하라뷰티샵 강남본점',
+        'hero.slide3.description': '강남에 위치한 하라뷰티샵 강남본점은<br>프라이빗 예약제 · 집중 케어 시스템으로 운영됩니다.<br><br>청결과 위생, 안정적인 시술 환경을 최우선으로 하여<br>시술 결과에만 온전히 집중할 수 있는 공간을 제공합니다.<br>',
         
         // About
         'about.subtitle': 'MASTER DIRECTOR',
@@ -104,6 +114,7 @@ const translations = {
         'contact.title': '오시는 길',
         'contact.description': '하라뷰티샵 강남본점으로 방문해주세요',
         'contact.booking.title': '예약 및 문의',
+        'contact.booking.description': '예약제로 운영됩니다<br>예약 변경은 1일 전까지 연락 부탁드립니다.',
         'contact.phone.title': '전화 상담',
         'contact.phone.time': '평일 10:00 - 20:00',
         'contact.instagram.link': '방문하기',
@@ -127,8 +138,10 @@ const translations = {
         
         // Footer
         'footer.tagline': '하라뷰티샵 강남본점',
-        'footer.info': '20년 경력의 김현영 원장이 운영하는 하라뷰티샵은<br>고객 한 분 한 분의 개성과 아름다움을 존중하며,<br>자연스럽고 세련된 디자인으로 최상의 결과를 만들어냅니다.',
-        'footer.bottom.business': '사업자등록번호: 123-45-67890 | 대표: 김현영'
+        'footer.info': '듀얼펌의 원조 김현영 원장이 운영하는 하라뷰티샵은<br>고객 한 분 한 분의 개성과 아름다움을 존중하며,<br>자연스럽고 세련된 디자인으로 최상의 결과를 만들어냅니다.',
+        'footer.address': '서울 강남구 논현로77길7, 반야빌딩 203호',
+        'footer.hours': '월-금 11:00-21:00(마지막 예약 20시)<br>토 11:00-17:00(마지막 예약 16시)<br>일요일, 공휴일 휴무',
+        'footer.bottom.business': '사업자등록번호: 119-02-12345 | 대표: 김현영'
     },
     
     en: {
@@ -148,6 +161,16 @@ const translations = {
         'hero.cta.booking': 'Book Consultation',
         'hero.cta.learn': 'Learn More',
         'scroll': 'SCROLL',
+        // Hero Swiper Slides
+        'hero.slide1.subtitle': 'PERSONALIZED EYEBROW DESIGN',
+        'hero.slide1.title': 'Eyebrows That Best Understand Your Face',
+        'hero.slide1.description': 'With 8 years of experience in semi-permanent makeup and eyelash procedures,<br>and currently serving as an adjunct professor in nursing and beauty departments,<br>our director personally conducts 1:1 consultations, design, and procedures.<br>Through comprehensive analysis of face shape, bone structure, muscle usage, and skin condition,<br>we create eyebrow designs that remain natural even when faded and stable over time.',
+        'hero.slide2.subtitle': 'BRAND PHILOSOPHY',
+        'hero.slide2.title': 'Design That Fits Your Face, Not Trends',
+        'hero.slide2.description': 'HARA BEAUTY does not replicate trendy eyebrows.<br>Every design starts from each customer\'s facial structure and impression.<br><br>Not excessive, yet clear.<br>We pursue \'face-centered design\' that naturally organizes first impressions.<br>',
+        'hero.slide3.subtitle': 'HARA BEAUTY SHOP · Gangnam',
+        'hero.slide3.title': 'HARA BEAUTY Gangnam Main Branch',
+        'hero.slide3.description': 'Located in Gangnam, HARA BEAUTY Gangnam Main Branch<br>operates with a private appointment system and intensive care approach.<br><br>Prioritizing cleanliness, hygiene, and a stable treatment environment,<br>we provide a space where you can focus entirely on treatment results.<br>',
         
         // About
         'about.subtitle': 'MASTER DIRECTOR',
@@ -232,6 +255,7 @@ const translations = {
         'contact.title': 'Location',
         'contact.description': 'Please visit HARA BEAUTY Gangnam Main Branch',
         'contact.booking.title': 'Reservation & Inquiry',
+        'contact.booking.description': 'We operate by appointment only.<br>Please contact us at least 1 day in advance for appointment changes.',
         'contact.phone.title': 'Phone Consultation',
         'contact.phone.time': 'Weekdays 10:00 - 20:00',
         'contact.instagram.link': 'Visit',
@@ -255,8 +279,10 @@ const translations = {
         
         // Footer
         'footer.tagline': 'HARA BEAUTY Gangnam Main Branch',
-        'footer.info': 'HARA BEAUTY, operated by Director Kim Hyun-young with 20 years of experience,<br>respects each customer\'s individuality and beauty,<br>creating the best results with natural and sophisticated designs.',
-        'footer.bottom.business': 'Business Registration: 123-45-67890 | Representative: Kim Hyun-young'
+        'footer.info': 'HARA BEAUTY, operated by Director Kim Hyun-young, the originator of Dual Perm,<br>respects each customer\'s individuality and beauty,<br>creating the best results with natural and sophisticated designs.',
+        'footer.address': 'Room 203, Banya Building, 7 Nonhyeon-ro 77-gil, Gangnam-gu, Seoul',
+        'footer.hours': 'Mon-Fri 11:00-21:00 (Last appointment 20:00)<br>Sat 11:00-17:00 (Last appointment 16:00)<br>Closed on Sundays and holidays',
+        'footer.bottom.business': 'Business Registration: 119-02-12345 | Representative: Kim Hyun-young'
     },
     
     zh: {
@@ -276,6 +302,16 @@ const translations = {
         'hero.cta.booking': '预约咨询',
         'hero.cta.learn': '了解更多',
         'scroll': '滚动',
+        // Hero Swiper Slides
+        'hero.slide1.subtitle': 'PERSONALIZED EYEBROW DESIGN',
+        'hero.slide1.title': '最了解您脸型的眉毛',
+        'hero.slide1.description': '护士出身，半永久、睫毛施术经验8年<br>现任护理系、美容系大学外聘教授<br>代表院长从咨询到设计、施术全程1:1亲自进行。<br>综合分析脸型、骨骼、肌肉使用、皮肤状态<br>完成即使褪色也不尴尬、时间久了也稳定的眉毛设计。',
+        'hero.slide2.subtitle': 'BRAND PHILOSOPHY',
+        'hero.slide2.title': '不是流行，而是适合脸型的设计',
+        'hero.slide2.description': 'HARA BEAUTY不复制流行的眉毛。<br>所有设计都从每位顾客的脸部结构和印象出发。<br><br>不过度，但清晰。<br>追求第一印象自然整理的"脸部中心设计"。<br>',
+        'hero.slide3.subtitle': 'HARA BEAUTY SHOP · Gangnam',
+        'hero.slide3.title': 'HARA BEAUTY江南总店',
+        'hero.slide3.description': '位于江南的HARA BEAUTY江南总店<br>以私人预约制、集中护理系统运营。<br><br>以清洁、卫生、稳定的施术环境为最优先，<br>提供可以完全专注于施术结果的空间。<br>',
         
         // About
         'about.subtitle': 'MASTER DIRECTOR',
@@ -360,6 +396,7 @@ const translations = {
         'contact.title': '位置',
         'contact.description': '请访问HARA BEAUTY江南总店',
         'contact.booking.title': '预约及咨询',
+        'contact.booking.description': '采用预约制运营<br>预约变更请至少提前1天联系。',
         'contact.phone.title': '电话咨询',
         'contact.phone.time': '平日 10:00 - 20:00',
         'contact.instagram.link': '访问',
@@ -383,8 +420,10 @@ const translations = {
         
         // Footer
         'footer.tagline': 'HARA BEAUTY 江南总店',
-        'footer.info': '由拥有20年经验的金贤英院长运营的HARA BEAUTY，<br>尊重每位顾客的个性和美丽，<br>以自然精致的设计创造最佳效果。',
-        'footer.bottom.business': '营业执照号: 123-45-67890 | 代表: 金贤英'
+        'footer.info': '由双重烫创始人金贤英院长运营的HARA BEAUTY，<br>尊重每位顾客的个性和美丽，<br>以自然精致的设计创造最佳效果。',
+        'footer.address': '首尔江南区论岘路77街7号，般若大厦203号',
+        'footer.hours': '周一至周五 11:00-21:00(最后预约20点)<br>周六 11:00-17:00(最后预约16点)<br>周日、节假日休息',
+        'footer.bottom.business': '营业执照号: 119-02-12345 | 代表: 金贤英'
     },
     
     ja: {
@@ -404,6 +443,16 @@ const translations = {
         'hero.cta.booking': '相談予約',
         'hero.cta.learn': 'もっと見る',
         'scroll': 'スクロール',
+        // Hero Swiper Slides
+        'hero.slide1.subtitle': 'PERSONALIZED EYEBROW DESIGN',
+        'hero.slide1.title': 'あなたの顔を最もよく理解した眉毛',
+        'hero.slide1.description': '看護師出身、半永久・まつげ施術経歴8年<br>現在看護学科・美容学科大学非常勤講師として活動中<br>代表院長が相談からデザイン、施術まで1:1で直接進行します。<br>顔型、骨格、筋肉使用、肌コンディションを総合分析し<br>消えても不自然でない、時間が経っても安定した眉毛デザインを完成します。',
+        'hero.slide2.subtitle': 'BRAND PHILOSOPHY',
+        'hero.slide2.title': '流行ではなく、顔に合うデザイン',
+        'hero.slide2.description': 'HARA BEAUTYは流行する眉毛を複製しません。<br>すべてのデザインはお客様お一人の顔構造と印象から出発します。<br><br>過度でなく、しかし明確に。<br>第一印象が自然に整頓される「顔中心デザイン」を追求します。<br>',
+        'hero.slide3.subtitle': 'HARA BEAUTY SHOP · Gangnam',
+        'hero.slide3.title': 'HARA BEAUTY江南本店',
+        'hero.slide3.description': '江南に位置するHARA BEAUTY江南本店は<br>プライベート予約制・集中ケアシステムで運営されます。<br><br>清潔と衛生、安定した施術環境を最優先とし<br>施術結果にのみ完全に集中できる空間を提供します。<br>',
         
         // About
         'about.subtitle': 'MASTER DIRECTOR',
@@ -488,6 +537,7 @@ const translations = {
         'contact.title': 'アクセス',
         'contact.description': 'HARA BEAUTY江南本店へお越しください',
         'contact.booking.title': '予約及びお問い合わせ',
+        'contact.booking.description': '予約制で運営しております。<br>予約変更は1日前までにご連絡ください。',
         'contact.phone.title': '電話相談',
         'contact.phone.time': '平日 10:00 - 20:00',
         'contact.instagram.link': '訪問',
@@ -511,7 +561,9 @@ const translations = {
         
         // Footer
         'footer.tagline': 'HARA BEAUTY 江南本店',
-        'footer.info': '20年の経験を持つキム・ヒョンヨン院長が運営するHARA BEAUTYは、<br>お客様一人一人の個性と美しさを尊重し、<br>自然で洗練されたデザインで最高の結果を作り出します。',
-        'footer.bottom.business': '事業者登録番号: 123-45-67890 | 代表: キム・ヒョンヨン'
+        'footer.info': 'デュアルパームの元祖キム・ヒョンヨン院長が運営するHARA BEAUTYは、<br>お客様一人一人の個性と美しさを尊重し、<br>自然で洗練されたデザインで最高の結果を作り出します。',
+        'footer.address': 'ソウル江南区論峴路77街7、般若ビル203号',
+        'footer.hours': '月-金 11:00-21:00(最終予約20時)<br>土 11:00-17:00(最終予約16時)<br>日曜日、祝日休業',
+        'footer.bottom.business': '事業者登録番号: 119-02-12345 | 代表: キム・ヒョンヨン'
     }
 };
