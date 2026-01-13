@@ -19,7 +19,7 @@
         initSmoothScroll();
         initScrollAnimations();
         initFAQ();
-        initParallax();
+        initHeroSwiper();
         
         // Trigger scroll event on load
         $window.trigger('scroll');
@@ -172,22 +172,39 @@
         });
     }
 
-    /* ==================== Parallax Effect ==================== */
-    function initParallax() {
-        $window.on('scroll', function() {
-            const scrolled = $window.scrollTop();
-            
-            // Hero parallax
-            $('.hero-content').css({
-                'transform': 'translateY(' + (scrolled * 0.3) + 'px)',
-                'opacity': 1 - (scrolled / 500)
+    /* ==================== Hero Swiper ==================== */
+    function initHeroSwiper() {
+        if (typeof Swiper !== 'undefined' && $('.heroSwiper').length) {
+            const heroSwiper = new Swiper('.heroSwiper', {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                speed: 800,
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                pagination: {
+                    el: '.hero-pagination',
+                    clickable: true,
+                    dynamicBullets: true,
+                },
+                navigation: {
+                    nextEl: '.hero-nav-next',
+                    prevEl: '.hero-nav-prev',
+                },
+                keyboard: {
+                    enabled: true,
+                },
+                mousewheel: {
+                    enabled: false,
+                },
             });
-            
-            // Scroll indicator fade
-            $('.scroll-indicator').css({
-                'opacity': Math.max(0, 0.6 - (scrolled / 300))
-            });
-        });
+        }
     }
 
     /* ==================== Service Item Hover Effect ==================== */
