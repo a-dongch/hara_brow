@@ -153,7 +153,7 @@ const translations = {
         'nav.contact': 'CONTACT',
         
         // Brand
-        'brand.subtitle': 'HARA BEAUTY Gangnam Main Branch',
+        'brand.subtitle': 'HARA BEAUTY Gangnam',
         
         // Hero
         'hero.title': 'A Space to Complete<br>Your Beauty',
