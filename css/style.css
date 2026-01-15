@@ -514,6 +514,15 @@ body {
     margin-bottom: 40px;
 }
 
+.director-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
 .image-placeholder {
     width: 100%;
     aspect-ratio: 3/4;
